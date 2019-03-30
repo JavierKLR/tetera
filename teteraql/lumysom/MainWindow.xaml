@@ -1,0 +1,21 @@
+﻿<Window x:Class="lumysom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sgl="clr-namespace:SharpGL.WPF;assembly=SharpGL.WPF"
+        xmlns:local="clr-namespace:lumysom"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="831">
+    <Grid>
+
+        <sgl:OpenGLControl OpenGLDraw="OpenGLControl_OpenGLDraw" OpenGLInitialized="OpenGLControl_OpenGLInitialized" Margin="227,0,0,0"/>
+        <CheckBox Content="Modelo luz ambiental" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="46,49,0,0" Checked="modluzAmbien_on" Unchecked="modluzAmbien_of"/>
+        <CheckBox Content="Modelo luz ambiental Global" HorizontalAlignment="Left" Height="28" Margin="46,74,0,0" VerticalAlignment="Top" Width="181" Checked="luzAmbienGlob_on" Unchecked="luzAmbienGlob_of"/>
+        <CheckBox Content="Posicion de luz" HorizontalAlignment="Left" Height="18" Margin="46,102,0,0" VerticalAlignment="Top" Width="166" Checked="posicionLuz_on" Unchecked="posicionLuz_of"/>
+        <CheckBox Content="Luz ambiental" HorizontalAlignment="Left" Height="29" Margin="46,180,0,0" VerticalAlignment="Top" Width="105" Checked="luzambiental_on" Unchecked="luzambiental_of"/>
+        <CheckBox Content="Luz difusa" HorizontalAlignment="Left" Height="26" Margin="46,209,0,0" VerticalAlignment="Top" Width="95" Unchecked="luzDifusa_of" Checked="luzDifusa_on"/>
+        <CheckBox Content="Luz especular" HorizontalAlignment="Left" Height="28" Margin="46,235,0,0" VerticalAlignment="Top" Width="95" Checked="luzEspecular_on" Unchecked="luzEspecular_of"/>
+
+    </Grid>
+</Window>

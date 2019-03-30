@@ -1,0 +1,7 @@
+C:\Users\SUPERJOSELE\Desktop\lumysom\lumysom\obj\Debug\teapot.csprojAssemblyReference.cache
+C:\Users\SUPERJOSELE\Desktop\lumysom\lumysom\obj\Debug\MainWindow.g.cs
+C:\Users\SUPERJOSELE\Desktop\lumysom\lumysom\obj\Debug\App.g.cs
+C:\Users\SUPERJOSELE\Desktop\lumysom\lumysom\obj\Debug\lumysom_MarkupCompile.cache
+C:\Users\SUPERJOSELE\Desktop\lumysom\lumysom\obj\Debug\lumysom_MarkupCompile.lref
+C:\Users\SUPERJOSELE\Desktop\lumysom\lumysom\obj\Debug\lumysom.exe
+C:\Users\SUPERJOSELE\Desktop\lumysom\lumysom\obj\Debug\lumysom.pdb
